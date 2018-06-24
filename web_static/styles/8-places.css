@@ -1,14 +1,18 @@
+/* .places {
+    text-align: center;
+} */
+
 .places article {
     width: 390px;
     padding: 20px;
-    margin: 20px;
     border: #FF5A5F 1px solid;
     border-radius: 4px;
-    float: left;
     position: relative;
     min-height: 60%;
-    text-align: center;
     left: 3%;
+    display: inline-block;
+    margin: 20px auto;
+    vertical-align: bottom;
 }
 
 .places h1 {
@@ -16,12 +20,17 @@
     text-align: left;
     padding-left: 20px;
     margin-bottom: 0;
+
 }
 
 .places h2 {
     font-size: 30px;
+    margin-bottom: 30px;
     text-align: center;
     display: inline-block;
+    /*position & bottom for moving up*/
+    position: relative;
+    bottom: 20px;
 }
 
 .price_by_night {
@@ -35,7 +44,8 @@
     line-height: 2.0em;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -8%;
+    padding: 2%;
 }
 
 .information {
@@ -94,6 +104,13 @@
     text-align: left;
 }
 
+/*this is for price tag*/
 .name_price {
     position: relative;
+}
+
+/*for spreading the slits of the inline blocks*/
+.janky_div {
+    display: inline-block;
+    margin: 2%;
 }

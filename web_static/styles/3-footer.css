@@ -5,6 +5,7 @@ footer {
     bottom: 0;
     border-top: 1px #CCCCCC solid;
     text-align: center;
+    background-color: white;
 }
 footer>p {
     position: absolute;
@@ -12,4 +13,9 @@ footer>p {
     right: 0;
     top: 15%;
     bottom: 0;
+}
+
+/*for forcing a gap between the footer and main page*/
+.janky_footer {
+    height: 30px;
 }
