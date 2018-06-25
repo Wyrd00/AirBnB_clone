@@ -20,7 +20,6 @@
     text-align: left;
     padding-left: 20px;
     margin-bottom: 0;
-
 }
 
 .places h2 {
@@ -89,10 +88,12 @@
     vertical-align: text-bottom;
 }
 
-.number_rooms div, .max_guest div, .number_bathrooms div {
+.number_rooms div,
+.max_guest div,
+.number_bathrooms div {
     position: absolute;
     bottom: 0;
-    padding-left: 15%; 
+    padding-left: 15%;
 }
 
 .user {
@@ -100,16 +101,19 @@
     line-height: 2em;
 }
 
-.user, .description {
+.user,
+.description {
     text-align: left;
 }
 
 /*this is for price tag*/
+
 .name_price {
     position: relative;
 }
 
 /*for spreading the slits of the inline blocks*/
+
 .janky_div {
     display: inline-block;
     margin: 2%;

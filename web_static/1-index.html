@@ -1,32 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <title>AirBnB clone</title>
     <style>
-    header{
-        background: #FF0000; 
-        height: 70px; 
-        width: 100%
-    }
-    footer{
-        background: #00FF00;
-        height: 60px;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-    footer.div{
-        text-align: center; 
-        height: 90px;
-        line-height: 90px;
-    }
+        header {
+            background: #FF0000;
+            height: 70px;
+            width: 100%
+        }
+
+        footer {
+            background: #00FF00;
+            height: 60px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+
+        footer>p {
+            text-align: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 10%;
+            bottom: 0;
+        }
     </style>
 </head>
+
 <body>
-  <header></header>
-  <footer>
-    <div>
-      Holberton School
-    </div>
-  </footer>
+    <header></header>
+    <footer>
+        <p>Holberton School</p>
+    </footer>
 </body>
+
 </html>

@@ -7,6 +7,7 @@ footer {
     text-align: center;
     background-color: white;
 }
+
 footer>p {
     position: absolute;
     left: 0;
@@ -16,6 +17,7 @@ footer>p {
 }
 
 /*for forcing a gap between the footer and main page*/
+
 .janky_footer {
     height: 30px;
 }

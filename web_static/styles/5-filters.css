@@ -23,7 +23,8 @@ button:hover {
     opacity: 0.9;
 }
 
-.amenities, .locations {
+.amenities,
+.locations {
     height: 100%;
     width: 25%;
     border-left: #DDDDDD 1px solid;
@@ -32,12 +33,14 @@ button:hover {
     padding-left: 65px;
 }
 
-.amenities h3, .locations h3 {
+.amenities h3,
+.locations h3 {
     font-weight: 600;
     line-height: 0.7;
 }
 
-.amenities h4, .locations h4 {
+.amenities h4,
+.locations h4 {
     font-weight: 400;
     font-size: 14px;
     position: relative;
